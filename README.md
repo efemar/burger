@@ -1,17 +1,28 @@
+## Overview of how this app works and why it was built
 
+This app was built to log which burgers have been eaten. It allows the users to keep track of their burger intake.
 
-### Overview
+## How the app is organized
 
-In this assignment, you'll create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Be sure to follow the MVC design pattern; use Node and MySQL to query and route data in your app, and Handlebars to generate your HTML.
+The app is a simple one page app that uses MYSQL, Node to query a database and Handlebars to generate the HTML. The app stores every burger in a database, whether devoured or not.
 
-### Overview 2
+## How to use this app
 
-* Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
+1) Users can add a Burger name
 
-* Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured.
+2) Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured.
+ 
+3) Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
 
-* Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
+## Technologies used in the App
 
-* Your app will store every burger in a database, whether devoured or not.
+This app was built using Html, CSS, javascript, mySQL, Node, Express and Handlebars
 
-* [Check out this video of the app for a run-through of how it works](https://youtu.be/msvdn95x9OM).
+It is deployed on heroku and able to capture and log which burgers have been eaten.
+
+## Link to the deployed version of the app
+
+https://protected-lake-41819.herokuapp.com/
+
+## Contributor
+This app was built by Elisa Marques, github: https://github.com/efemar?tab=repositories
